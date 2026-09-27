@@ -1,0 +1,11 @@
+AllCoreRulesAsSharedNoise: true
+
+Grammars:
+
+    g:
+        core:
+            - A a
+            - B b
+            - S -> A S
+            - S -> B
+

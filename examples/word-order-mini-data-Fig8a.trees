@@ -1,0 +1,6 @@
+(S (NP np) (VP (V v) (NP np)))
+(S (NP np) (S (VP (NP np) (V v)) (NP np)))
+(S (NP np) (VP (V v)))
+(S (NP np) (S (NP np) (VP (V v))))
+(S (VP (V v) (NP np)))
+

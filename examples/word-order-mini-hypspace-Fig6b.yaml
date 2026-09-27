@@ -1,0 +1,27 @@
+
+# The small word-order hypothesis space from Figure 6b of Perkins & Hunter 2026.
+
+Shared:
+    core:
+        - S  -> NP VP
+        - VP -> V
+        - NP np
+        - V  v
+    noise:
+        - S -> VP
+        - S -> VP NP
+        - S -> S NP
+        - S -> NP S
+
+AllCoreRulesAsSharedNoise: true
+
+Grammars:
+
+    SVO:
+        core:
+            - VP -> V NP
+
+    SOV:
+        core:
+            - VP -> NP V
+

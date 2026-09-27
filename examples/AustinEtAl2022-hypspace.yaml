@@ -1,0 +1,16 @@
+
+# The hypothesis space in the Austin et al (2022) `ka'/`bo' learning experiment, 
+# represented in the form of CFG rules as in Figure 6a of Perkins & Hunter 2026.
+
+AllCoreRulesAsSharedNoise: true
+
+StartSymbol: D
+
+Grammars:
+    G_ka:
+        core:
+            - D ka
+    G_bo:
+        core:
+            - D bo
+
